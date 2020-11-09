@@ -1,0 +1,129 @@
+body {
+  background-color: #f9f6f2;
+}
+
+header {
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+
+}
+
+.m-left{
+  float:left;
+}
+
+.logo{
+  margin : 0; padding: 0;
+}
+
+.m-right{
+  float:right;
+}
+
+img {
+  display: block;
+  position: relative;
+  left:10em;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+h1 {
+  font-family: saoldisplaythinititalic; font-weight: 100;
+  font-style: italic;
+  font-variant: small-caps;
+  font-size: 70px;
+  color: black;
+  text-align:center;
+
+
+}
+
+p {
+  font-family: "Butler", Times, serif;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: left;
+
+}
+
+
+h2 {
+  font-family: "Saol Display", Times, serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: #b24914;
+}
+
+h3 {
+  font-family: "Sophia Martini", Times, serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #b24914;
+  text-align: center;
+  line-height: 1em;
+  margin-left: 10em;
+}
+
+h4 {
+  font-family: "Saol Display", Times, serif;
+  font-size: 50px;
+  font-weight: 200;
+  color: black;
+  margin-left: 10em;
+  margin-right: 10em;
+  padding-left: 1em;
+}
+
+a{
+  font-family: "Saol Display", Times, serif;
+  text-decoration: none;
+  color: black;
+  width: 100% ;
+  font-size: 50px;
+  margin-left: 1em;
+  margin-top: -1em;
+
+
+}
+
+.chapitre1{
+  margin-left: 10em;
+  margin-right: 10em;
+  padding-left: 30em;
+}
+
+.chapitre2{
+  margin-right: : 10em;
+  margin-left: : 10em;
+  padding-right: 30em;
+}
+
+.chapitre3{
+  margin-left: 10em;
+  margin-right: 10em;
+  padding-left: 30em;
+}
+
+
+.fleft
+{
+  float: left;
+
+}
+
+.liste:hover{
+  font-family: "Butler", Times, serif;
+  color: #DA6F5C;
+  font-size: 3,5em
+  line-height: 110%;
+}
